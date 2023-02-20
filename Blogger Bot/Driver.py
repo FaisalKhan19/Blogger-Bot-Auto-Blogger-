@@ -9,7 +9,7 @@ import pandas as pd
 import time
 
 
-class Scraper:
+class Reddit_Scraper:
     def __init__(self, url, u_id, password, sub, driver_loc):
         self.Url = url
         self.U_id = u_id
