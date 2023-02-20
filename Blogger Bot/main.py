@@ -1,4 +1,4 @@
-from scraper import Scraper
+from Driver import Scraper
 import OpenAI
 
 user = Scraper()
