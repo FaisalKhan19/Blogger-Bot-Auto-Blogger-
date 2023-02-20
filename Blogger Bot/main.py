@@ -1,4 +1,4 @@
-from Driver import Scraper
+from Driver import Reddit_Scraper as Scraper
 import OpenAI
 
 user = Scraper()
