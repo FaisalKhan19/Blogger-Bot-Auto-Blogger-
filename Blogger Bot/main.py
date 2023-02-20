@@ -1,8 +1,8 @@
 from scraper import Scraper
 import OpenAI
 
-user = Scraper("https://www.reddit.com/", "Delicious_Hamster158", "old_mon36996", "AskReddit", "Q:\\Web scraping "
-                                                                                               "udemy\\chromedriver.exe")
+user = Scraper()
+
 user.login()
 
 prompts = user.scrape(20)
